@@ -1,0 +1,10 @@
+[Unit]
+Description = unchibot daemon
+
+[Service]
+ExecStart = /opt/unchibot.py
+Restart = always
+Type = simple
+
+[Install]
+WantedBy = multi-user.target
