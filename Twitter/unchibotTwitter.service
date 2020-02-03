@@ -1,0 +1,10 @@
+[Unit]
+Description = Unchibot Twitter version daemon
+
+[Service]
+ExecStart = /opt/Twitter_bot/unchibot/main.py
+Restart = always
+Type = simple
+
+[Install]
+WantedBy = multi-user.target
