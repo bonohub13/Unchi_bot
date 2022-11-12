@@ -1,4 +1,4 @@
-# Unchi bot on LINE
+# Unchi bot
 
 ## This is the Unchi bot using the API in different platforms written in Python3
 1. you'll need the token from the API to use this.
